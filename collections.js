@@ -14,3 +14,14 @@ function findPhoneByName(name) {
 }
 console.log(findPhoneByName("Illia"));
 console.log(findPhoneByName("Vladik"));
+
+const hash = {
+    "Illia": "+380996248863",
+    "Vlad": "+380975325555",
+    "Anna": "+380665554789"
+}
+function findPhoneByNameHash(name) {
+    return hash[name];
+}
+console.log(findPhoneByNameHash("Illia"));
+console.log(findPhoneByNameHash("Vladik"));
