@@ -46,7 +46,7 @@ function sumReduce(...args) {
   return args.reduce((acc, x) => acc + x, 0);
 }
 
-// Testing the functions
+// результат
 console.log("sumFor =", sumFor(1, 2, 3));         
 console.log("sumForOf =", sumForOf(1, 2, 3));     
 console.log("sumWhile =", sumWhile(1, 2, 3));     
