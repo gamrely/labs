@@ -1,0 +1,10 @@
+
+function store(value) {
+  return function () {
+    return value;
+  };
+}
+
+const read = store(5);
+const result = read();
+console.log(result); // 5
